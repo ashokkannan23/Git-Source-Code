@@ -16,3 +16,17 @@ git remote rm origin
 
 
 git remote rename [current name] [new name]
+
+
+git checkout -b <branchname> or git branch <branchname>
+git checkout -b store
+
+git push --set-upstream origin store
+
+## switching branch
+git checkout master
+git status
+
+git merge store
+
+git push
