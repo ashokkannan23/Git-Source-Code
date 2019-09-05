@@ -1,4 +1,12 @@
+$ git config --global user.name "King Kong"
+$ git config --global user.email "king-kong@gmail.com"
 
+
+$ git config --list
+
+D:\temp\hi>echo hello > hi.txt
+
+git rm <filename>
 
 git init
 git add whatever.wvr ("git add --all" if you want to add all files)
