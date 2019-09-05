@@ -30,3 +30,13 @@ git status
 git merge store
 
 git push
+
+## delete remotely
+$ git push --delete <remote_name> <branch_name> 
+
+## delete locally
+git branch -D gh-pages
+
+rm -f .git/index.lock
+
+git stash save your-file-name
