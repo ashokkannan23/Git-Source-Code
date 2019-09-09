@@ -48,3 +48,11 @@ git branch -D gh-pages
 rm -f .git/index.lock
 
 git stash save your-file-name
+
+###
+Clone some specific branch
+git clone -b <branch> <remote_repo>
+git clone -b my-branch git@github.com:user/myproject.git
+
+
+
